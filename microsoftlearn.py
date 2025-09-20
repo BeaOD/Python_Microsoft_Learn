@@ -96,10 +96,10 @@ currentDate = datetime.now()
 gpa = input("what's your gpa?")
 gpa = float(gpa)
 lowest_grade = input("your grade")
-lowest_grade = float(gpa)
+lowest_grade = float(lowest_grade)
 if gpa >= .85 and lowest_grade >= .70:
     honour_roll = True
 else:
     honour_roll = False
-    if honour_roll:
+if honour_roll:
         print("we got it ")
